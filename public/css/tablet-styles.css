@@ -1,0 +1,16 @@
+.articulo{
+    width: 100%;
+    margin-right: 0px;
+}
+.nav>li>a{
+  font-size: 15px;
+}
+.nav>li{
+  width: 15%;
+}
+.container{
+  width: 90%;
+}
+.miniatura{
+  height: inherit!important;
+}

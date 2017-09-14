@@ -42,10 +42,17 @@ return [
     */
 
     'disks' => [
-
         'local' => [
             'driver' => 'local',
-            'root'   => storage_path('app'),
+            'root'   => public_path('img'),
+        ],
+        'miniatures' => [
+            'driver' => 'local',
+            'root'   => public_path('noticias/miniatures'),
+        ],
+        'pdfs' => [
+            'driver' => 'local',
+            'root'   => public_path('noticias/pdfs'),
         ],
 
         'ftp' => [

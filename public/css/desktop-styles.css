@@ -1,0 +1,9 @@
+.articulo{
+    width: 30%;
+}
+.nav>li>a{
+  font-size: 14px;
+}
+.nav>li{
+  width: 15%;
+}

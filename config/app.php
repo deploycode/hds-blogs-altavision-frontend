@@ -1,4 +1,44 @@
 <?php
+$dominio = $_SERVER["HTTP_HOST"];
+if ($dominio === 'localhost:8000') {
+  config(['disease' => '12']);
+}elseif ($dominio === 'ambliopia.com.co' || $dominio === 'www.ambliopia.com.co') {
+  config(['disease' => '1']);
+}elseif ($dominio === 'astigmatismo.com.co' || $dominio === 'www.astigmatismo.com.co') {
+  config(['disease' => '2']);
+}elseif ($dominio === 'bajavision.com.co' || $dominio === 'www.bajavision.com.co') {
+  config(['disease' => '3']);
+}elseif ($dominio === 'catarata.com.co' || $dominio === 'www.catarata.com.co') {
+  config(['disease' => '4']);
+}elseif ($dominio === 'conjuntivitis.com.co' || $dominio === 'www.conjuntivitis.com.co') {
+  config(['disease' => '5']);
+}elseif ($dominio === 'degeneracionmacular.com.co' || $dominio === 'www.degeneracionmacular.com.co') {
+  config(['disease' => '6']);
+}elseif ($dominio === 'estrabismo.com.co' || $dominio === 'www.estrabismo.com.co') {
+  config(['disease' => '7']);
+}elseif ($dominio === 'glaucoma.com.co' || $dominio === 'www.glaucoma.com.co') {
+  config(['disease' => '8']);
+}elseif ($dominio === 'hipermetropia.com.co' || $dominio === 'www.hipermetropia.com.co') {
+  config(['disease' => '9']);
+}elseif ($dominio === 'lentes.com.co' || $dominio === 'www.lentes.com.co') {
+  config(['disease' => '10']);
+}elseif ($dominio === 'miopia.com.co' || $dominio === 'www.miopia.com.co') {
+  config(['disease' => '11']);
+}elseif ($dominio === 'ojoseco.com.co' || $dominio === 'www.ojoseco.com.co') {
+  config(['disease' => '12']);
+}elseif ($dominio === 'parpados.com.co' || $dominio === 'www.parpados.com.co') {
+  config(['disease' => '13']);
+}elseif ($dominio === 'presbicia.com.co' || $dominio === 'www.presbicia.com.co') {
+  config(['disease' => '14']);
+}elseif ($dominio === 'pterigion.com.co' || $dominio === 'www.pterigion.com.co') {
+  config(['disease' => '15']);
+}elseif ($dominio === 'queratocono.com.co' || $dominio === 'www.queratocono.com.co') {
+  config(['disease' => '16']);
+}elseif ($dominio === 'retinopatiadiabetica.com.co' || $dominio === 'www.retinopatiadiabetica.com.co') {
+  config(['disease' => '17']);
+}elseif ($dominio === 'uveitis.com.co' || $dominio === 'www.uveitis.com.co') {
+  config(['disease' => '18']);
+}
 
 return [
 
@@ -39,7 +79,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'America/Bogota',
 
     /*
     |--------------------------------------------------------------------------
@@ -52,7 +92,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'es',
 
     /*
     |--------------------------------------------------------------------------
@@ -145,6 +185,11 @@ return [
         altavisionBlog2\Providers\EventServiceProvider::class,
         altavisionBlog2\Providers\RouteServiceProvider::class,
 
+
+        Cviebrock\EloquentSluggable\ServiceProvider::class,
+        Collective\Html\HtmlServiceProvider::class,
+        Laracasts\Flash\FlashServiceProvider::class,
+
     ],
 
     /*
@@ -193,6 +238,9 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
 
+
+        'Form' => Collective\Html\FormFacade::class,
+        'Html' => Collective\Html\HtmlFacade::class,
     ],
 
 ];

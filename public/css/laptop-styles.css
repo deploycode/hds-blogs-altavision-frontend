@@ -1,0 +1,11 @@
+@media (max-width: 1024px){
+  .navbar-collapse, .navbar-collapse>.container {
+    padding: 0px;
+  }
+  .span-telefono{
+    font-size: 40px;
+  }
+  .margin-boletin{
+    margin-top:40px;
+  }
+}

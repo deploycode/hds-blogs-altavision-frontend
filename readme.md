@@ -1,27 +1,30 @@
-## Laravel PHP Framework
+### HDS-altavision-blog
+1. CMS desarrollado en Laravel para la administración de múltiples blogs en un único aplicativo web.
+2. URL's Blogs que corren en este CMS:
+  - www.ambliopia.com.co
+  - www.astigmatismo.com.co
+  - www.bajavision.com.co
+  - www.catarata.com.co
+  - www.conjuntivitis.com.co
+  - www.degeneracionmacular.com.co
+  - www.estrabismo.co
+  - www.glaucoma.com.co
+  - www.hipermetropia.com.co
+  - www.lentes.com.co
+  - www.miopia.com.co
+  - www.ojoseco.com.co
+  - www.parpados.com.co
+  - www.presbicia.com.co
+  - www.pterigion.com.co
+  - www.www.queratocono.com.co
+  - www.retinopatiadiabetica.com.co
+3. Completo CMS para múltiples blog y perfiles de usuario.
+4. Frontend: HTML5 - CSS3 - BOOTSTRAP -JS - Jquery | Backend: PHP con Laravel Framework.
+------------------------------------------------------------------
+### Funcionalidades
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
-
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
-
-## Official Documentation
-
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+1. Gestionar usuarios, menus, etiquetas y publicaciones del blog.
+3. Permitir el contacto de quien interese al correo oficial de la empresa.
+5. Permitir la administración total o parcial de las herramientas del aplicativo a un superusuario
+------------------------------------------------------------------
+Desarrolado por Gabriel Rodríguez para Hablemos de Salud.
