@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace altavisionBlog2;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;

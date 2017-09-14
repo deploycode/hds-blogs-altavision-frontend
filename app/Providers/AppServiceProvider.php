@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace altavisionBlog2\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -140,10 +140,10 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        altavisionBlog2\Providers\AppServiceProvider::class,
+        altavisionBlog2\Providers\AuthServiceProvider::class,
+        altavisionBlog2\Providers\EventServiceProvider::class,
+        altavisionBlog2\Providers\RouteServiceProvider::class,
 
     ],
 

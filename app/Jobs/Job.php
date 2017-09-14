@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Jobs;
+namespace altavisionBlog2\Jobs;
 
 use Illuminate\Bus\Queueable;
 

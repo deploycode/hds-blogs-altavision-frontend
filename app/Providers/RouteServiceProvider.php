@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace altavisionBlog2\Providers;
 
 use Illuminate\Routing\Router;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -14,7 +14,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected $namespace = 'App\Http\Controllers';
+    protected $namespace = 'altavisionBlog2\Http\Controllers';
 
     /**
      * Define your route model bindings, pattern filters, etc.

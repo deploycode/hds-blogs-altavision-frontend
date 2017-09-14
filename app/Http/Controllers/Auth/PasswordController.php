@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace altavisionBlog2\Http\Controllers\Auth;
 
-use App\Http\Controllers\Controller;
+use altavisionBlog2\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 
 class PasswordController extends Controller
