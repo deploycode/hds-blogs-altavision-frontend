@@ -15,6 +15,27 @@ textarea{
 ul.navbar-nav>li>a:hover, .dropdown-menu>li>a:focus {
     background-color: #5fb5e6;
 }
+article h1{
+  font-size: 16px;
+  color: #5fb5e6;
+  margin-top: 13px;
+  font-weight: bold;
+}
+article h2{
+  color: #5fb5e6;
+  font-size:15px;
+  font-weight: bold;
+}
+article h3 , article h4 , article h5, article h6{
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Verdana";
+}
+article p{
+  font-size: 14px;
+  font-family: "Verdana";
+  margin: 0px;
+}
 /*AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
 .alert{
   padding: 0px;
@@ -275,17 +296,7 @@ overflow: hidden;
 .jumbotronn{
   padding-top:      0px;
   padding-bottom:   0px;
-  font-size: 13px;
   text-align: justify;
-}
-.jumbotronn h1{
-  color: #5fb5e6;
-  margin-top: 13px;
-  font-weight: bold;
-  font-size: 15px;
-}.jumbotronn h2{  color: #5fb5e6;  font-weight: bold;  font-size:14px;}
-.jumbotronn p{
-  margin: 0px;
 }
 /*KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK*/
 /*LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL*/
