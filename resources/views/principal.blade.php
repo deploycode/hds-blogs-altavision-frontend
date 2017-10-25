@@ -85,7 +85,8 @@
 
       <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
         <center><label class="piedepagina_label text-center logo-footer">NUESTRAS EMPRESAS ALIADAS</label></center>
-        <a  href=""><center><img src="https://www.libertycolombia.com.co/Style%20Library/Imagenes/liberty.png" class="logo-footer margin-top-0"></center></a>
+        <a><center><img src="https://www.libertycolombia.com.co/Style%20Library/Imagenes/liberty.png" class="logo-footer margin-top-0"></center></a>
+        <a><center><img src="http://www.foncencosud.com.co/images/logo.png" class="logo-footer margin-top-0" style="background-color:#0068b3; padding:5px; border-radius:15px;" ></center></a>
       </div>
       <div class="col-xs-12">
         <p class=" col-md-12 footer-fin text-center"><br><br>
